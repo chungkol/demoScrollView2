@@ -17,6 +17,9 @@
 		5454C6051D77E8E80089723A /* shop2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5454C6011D77E8E80089723A /* shop2.jpg */; };
 		5454C6061D77E8E80089723A /* shop3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5454C6021D77E8E80089723A /* shop3.jpg */; };
 		5454C6071D77E8E80089723A /* shop4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5454C6031D77E8E80089723A /* shop4.jpg */; };
+		5454C6091D78134B0089723A /* ListImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5454C6081D78134B0089723A /* ListImages.swift */; };
+		5454C60C1D781C5F0089723A /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 5454C60A1D781C5F0089723A /* back.png */; };
+		5454C60D1D781C5F0089723A /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 5454C60B1D781C5F0089723A /* next.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		5454C6011D77E8E80089723A /* shop2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shop2.jpg; sourceTree = "<group>"; };
 		5454C6021D77E8E80089723A /* shop3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shop3.jpg; sourceTree = "<group>"; };
 		5454C6031D77E8E80089723A /* shop4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shop4.jpg; sourceTree = "<group>"; };
+		5454C6081D78134B0089723A /* ListImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListImages.swift; sourceTree = "<group>"; };
+		5454C60A1D781C5F0089723A /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		5454C60B1D781C5F0089723A /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,7 @@
 				5454C5F21D77E1B70089723A /* Assets.xcassets */,
 				5454C5F41D77E1B70089723A /* LaunchScreen.storyboard */,
 				5454C5F71D77E1B70089723A /* Info.plist */,
+				5454C6081D78134B0089723A /* ListImages.swift */,
 			);
 			path = DemoScrollView2;
 			sourceTree = "<group>";
@@ -79,6 +86,8 @@
 		5454C5FF1D77E8DE0089723A /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				5454C60A1D781C5F0089723A /* back.png */,
+				5454C60B1D781C5F0089723A /* next.png */,
 				5454C6001D77E8E80089723A /* shop1.jpg */,
 				5454C6011D77E8E80089723A /* shop2.jpg */,
 				5454C6021D77E8E80089723A /* shop3.jpg */,
@@ -147,8 +156,10 @@
 			files = (
 				5454C5F61D77E1B70089723A /* LaunchScreen.storyboard in Resources */,
 				5454C6071D77E8E80089723A /* shop4.jpg in Resources */,
+				5454C60D1D781C5F0089723A /* next.png in Resources */,
 				5454C6061D77E8E80089723A /* shop3.jpg in Resources */,
 				5454C5F31D77E1B70089723A /* Assets.xcassets in Resources */,
+				5454C60C1D781C5F0089723A /* back.png in Resources */,
 				5454C5F11D77E1B70089723A /* Main.storyboard in Resources */,
 				5454C6041D77E8E80089723A /* shop1.jpg in Resources */,
 				5454C6051D77E8E80089723A /* shop2.jpg in Resources */,
@@ -163,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5454C5FE1D77E3240089723A /* ViewScroll.swift in Sources */,
+				5454C6091D78134B0089723A /* ListImages.swift in Sources */,
 				5454C5EE1D77E1B70089723A /* ViewController.swift in Sources */,
 				5454C5EC1D77E1B70089723A /* AppDelegate.swift in Sources */,
 			);
